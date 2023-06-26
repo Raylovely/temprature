@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+
+.heading{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+
+}
+.heading h1{
+    margin-top:50px;
+    font-size:larger;
+    font-weight:bolder;
+    
+
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.temp_container{
+    margin-top:10;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("htmlpik.jpg");
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    width:600px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    border-radius: 5%;
+
+
+}
+.temp_container input{
+    padding:10px;
+    border-radius: 20px;
+    width:300px;
+    outline:none; 
+    border: none;
+}
+.temp_value{
+    margin-top: 10px;
+    font-size: 18px;
+    color:black;
+    text-align: center;
+}
